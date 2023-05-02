@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  html {
+    font-family: cursive, monospace;
+    scrollbar-color: violet;
+    scroll-behavior:smooth;
+  }
+  
+  img {
+    width: 100;
+    
+    
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: 710px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  header .logo a {
+    font-size: 30px;
+    color: violet;
+    padding: 15px 30px;
+    font-weight: 900;
+  }
+  
+  
+  header .logo a span {
+    color: rgb(244, 17, 142);
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav ul li a {
+    margin: 5px 20px;
+    font-size: 18px;
+    color: violet;
+    padding: 10px 10px;
+  }
+  
+  header nav ul li a:hover {
+    border-bottom: black;
+  }
+  
+  /* Content */
+  
+  
+  section{
+    display: flex;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("meow.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .content {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    
+  }
+  
+  .content2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .picture img{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 120px;
+    border: 10px solid violet;
+    box-shadow: 5px 5px 5px 5px ;
+    object-fit: fill;
+  }
+  
+  .content h2 {
+    font-size: 40px;
+    text-shadow: -5px 5px 5px black;
+    font-weight: 900px;
+    padding: 5px;
+    color: rgb(255, 0, 72);
+  }
+  
+  .content p {
+    font-size: 30px;
+    margin-top: 50px;
+    text-shadow: -5px 5px 5px black;
+    color: black;
+  }
+  
+  .content p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-shadow: -5px 5px 5px black;
+    color:  rgb(247, 245, 246);
+  }
+  
+  
+  /* firewall */
+  
+  .fw {
+    background-color: wheat;
+    width: 100%;
+  }
+  
+  .fw .fw-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fw-header h3 {
+    color: black;
+    padding: 10px 30px;
+    font-size: 30px;
+  }
+  
+  .fw .fw-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    font-size: 18px;
+    flex-wrap: wrap;
+    background-color: lightcoral;
+  }
+  
+  .fw-content h5{
+    color: black;
+  }
+  
+  .fw-content2 {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fw-content2 p{
+    padding: 0px 50px 50px 100px;
+    color: black;
+  }
+  
+  .fw-content2 span{
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  
+  
+  /* Sophos */
+  
+  .sophos {
+    background-color: wheat;
+    width: 100%;
+  }
+  
+  .sophos .s-header {
+    display: flex;   
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .s-header h3 {
+    color: black;
+    padding: 10px 30px;
+    font-size: 30px;
+  }
+  
+  .s-header h4 {
+    color: rgb(88, 175, 170);
+    padding: 10px 20px;
+  }
+  
+  .s-content{
+    background-color: lightcoral;
+    padding: 0px 50px 50px 100px;
+    color: black;
+  }
+  
+  .s-content span{
+    color: black;
+    font-weight: bold;
+  }
+  
+  .s-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightcoral;
+    padding: 50px 50px 20px 50px;
+    font-size: 18px;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  /* Ransomware */
+  
+  .ransomware {
+    background-color: wheat;
+    width: 100%;
+  }
+  
+  .ransomware .r-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .r-header h3 {
+    color: rgb(88, 175, 170);
+    padding: 10px 30px;
+    font-size: 30px;
+  }
+  
+  .r-header h4 {
+    color: rgb(88, 175, 170);
+    padding: 10px 20px;
+  }
+  
+  .r-content{
+    background-color: lightcoral;
+    padding: 0px 50px 50px 100px;
+    color: black;
+  }
+  
+  .r-content span{
+    color: rgb(224, 132, 169);
+    font-weight: bold;
+  }
+  
+  .r-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightcoral;
+    padding: 50px 50px 20px 50px;
+    font-size: 18px;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  /* Footer */
+  
+  
+  .footer {
+    background-color: lightcoral;
+    border-top: 2px solid #333333;
+  }
+  
+  .footer .footer-box {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer .footer-box .social-media a {
+    color: rgb(221, 130, 147);
+    background-color: lightcoral;
+    border-radius: 50%;
+    font-size: 17px;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .footer .footer-box .social-media a:hover {
+    color: rgb(221, 130, 147);
+    
+    transition: .5s all ease-in-out;
+  }
+  
+  .footer .footer-box .copyright {
+    color: rgb(221, 130, 147);
+    font-size: 20px;
+  }
+  
+  .footer .footer-box .brand {
+    color: rgb(221, 130, 147);
+    font-size: 20px;
+  }
+  
+  .footer .footer-box .brand span {
+    color: rgb(221, 130, 147);
+  }
+  
+  /* Responsive */
+  
+  @media(max-width: 992px) {
+  
+    /* Header */
+  
+    header {
+        flex-direction: column;
+        height: 150px;
+        background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+    }
+  
+    .menu-header .logo a {
+        font-size: 25px;
+    }
+  
+    header nav ul li a {
+        font-size: 16px;
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 10px;
+    }
+  
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .content h2 {
+        font-size: 28px;
+    }
+  
+    .content p {
+        font-size: 18px;
+    }
+  }
+  
+  
+  @media(max-width: 950px) {
+    .contact .contact-box {
+        flex: 100%;
+    }
+  }
+  
+  @media(max-width: 800px) {
+  
+    .menu .menu-content .hot-coffees,
+    .cold-coffees,
+    .frappucino-coffees {
+        margin: 20px;
+    }
+  }
+  
+  @media(max-width: 700px) {
+    .footer .footer-box .social-media a {
+        color: white;
+        background-color: #333333;
+        border-radius: 50%;
+        font-size: 16px;
+        padding: 5px;
+    }
+  
+    .footer .footer-box .copyright {
+        color: white;
+        font-size: 15px;
+    }
+  
+    .footer .footer-box .brand {
+        color: white;
+        font-size: 18px;
+    }
+  }
+  
+  @media(max-width: 500px) {
+  
+    /* header */
+  
+    header {
+        height: 130px;
+    }
+  
+    header .logo a {
+        font-size: 23px;
+    }
+  
+    header nav ul li a {
+        font-size: 13px;
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 10px;
+    }
+  
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+  
+  
+    /* Content */
+  
+    .content h2 {
+        font-size: 23px;
+    }
+  
+    .content p {
+        font-size: 16px;
+    }
+  
+  
+    /* footer */
+  
+    .footer .footer-box {
+        flex-direction: column;
+    }
+  
+    .footer .footer-box .social-media a {
+        color: white;
+        background-color: #333333;
+        border-radius: 50%;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+  
+    .footer .footer-box .copyright {
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+  
+    .footer .footer-box .brand {
+        color: white;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+  
+  }
+  
+  
+  @media(max-width: 410px) {
+  
+    /* header */
+  
+    header {
+        height: 120px;
+    }
+  
+    header .logo a {
+        font-size: 20px;
+        color: rgb(252, 255, 250);
+        padding: 15px 30px;
+    }
+  
+    header nav ul li a {
+        font-size: 12px;
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 10px;
+        color: violet;
+        padding: 5px 5px;
+    }
+  
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    /* content */
+  
+    .content h2 {
+        font-size: 20px;
+    }
+  
+    .content p {
+        font-size: 13px;
+    }
+  
+  }
